@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+
+       
+        .header {
+            background-color: blueviolet;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        
+        .chat-container {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid grey;
+        }
+
+       
+        .date {
+            text-align: center;
+            margin: 10px 0;
+            color: gray;
+            font-size: 14px;
+            border-bottom: 1px solid gray;
+            line-height: 0.1em;
+        }
+
+        .date span {
+            background: white;
+            padding: 0 10px;
+        }
+
+       
+        .message {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 60%;
+            position: relative;
+            clear: both;
+        }
+
+        .message.left {
+            background-color:white;
+            float: left;
+            text-align: left;
+        }
+
+        .message.right {
+            background-color: #dcf8c6;
+            float: right;
+            text-align: left;
+        }
+
+       
+        .time {
+            display: block;
+            text-align: right;
+            color: gray;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">palak</div>
+
+    <div class="chat-container">
+      
+        <div class="date"><span>Yesterday</span></div>
+
+        <div class="message left">
+            hii palak
+            <span class="time">11:00 PM</span>
+        </div>
+
+        <div class="message right">
+            hii rohan, what up!
+            <span class="time">11:01 PM</span>
+        </div>
+
+        <div class="message left">
+            Fine, can you send me that notes of communication skills?
+            <span class="time">11:01 PM</span>
+        </div>
+
+        <div class="message left">
+            I want it Urgent
+            <span class="time">11:02 PM</span>
+        </div>
+
+        <div class="message right">
+            ok✔✔
+            <span class="time">11:04 PM</span>
+        </div>
+
+      
+        <div class="date"><span>Today</span></div>
+
+        <div class="message right">
+            I have sent it in mail...✔✔
+            <span class="time">9:04 AM</span>
+        </div>
+
+        <div class="message right">
+            Please check your inbox✔✔
+            <span class="time">9:05 AM</span>
+        </div>
+
+    </div>
+
+</body>
+</html>
